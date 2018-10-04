@@ -1,0 +1,126 @@
+/*Colors
+#0D0A0B smoky black
+#454955 outer space
+#F3EFF5 anti flash white
+#72B01D green ryb
+#3F7D20 sap green
+*/ 
+
+/* Global */  
+body {
+    background: #3F7D20;
+}
+
+h1 {
+    color: #F3EFF5;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+h1:after {
+    content: "\265E";
+    color: #F3EFF5;
+}
+
+h3 {
+    color: #72B01D;
+    margin-top: 0;
+}
+
+a {
+    color: #72B01D;
+    padding: 15px;
+    background: #454955;
+}
+
+.content-wraper {
+    width: 1000px;
+    margin: 10 auto;
+    /*padding: 5px;*/
+}
+
+
+/* Header */
+header {
+    margin-top: 25px;
+    background: #0D0A0B;
+    height: 150px;  
+}
+
+
+
+/* Body */
+.HomeBackground {
+    background-image: url("nyc.jpg");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.about {
+    color: black;
+}
+h5 {
+    margin-bottom: 160px;
+}
+
+.f16, .f18, .navy {
+    float: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.mumbai, .singapore, .australia {
+    float: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.bank, .banking {
+    float: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.finContent {
+    margin-bottom: 20px;
+}
+
+.employee {
+    float: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px;
+}
+
+[type]{
+    border: 2px solid #454955;
+}
+[type="Password"]{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+    margin-top: 0;
+    background: #0D0A0B;
+    height: 100px;
+}
+h6 {
+    color: #F3EFF5;
+    text-align: center;
+    
+
+}
+
+
